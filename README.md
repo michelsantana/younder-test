@@ -44,26 +44,30 @@ Após instalação do MongoDB
 
 Possívelmente o mongodb estará rodando na porta padrão localhost:27017
 
-Ao clonar o repositório.&nbsp;&nbsp;&nbsp;&nbsp;&n&nbsp;&nbsp;&nbsp;&nbsp;bsp;&nbsp;♦ Abrir o arquivo younder-test/WebApp.sln no visual studio 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;♦ Configurar o Web.config da aplicação WebApp.Api &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configuration>connectionStrings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configurar a connectionString para o localhost que o mongodb estiver rodando
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;caso o seu mongodb esteja rodando na porta padrão, não será necessário modificar
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chave da porta padrão: connectionString="mongodb://localhost:27017/"
-&nbsp;&nbsp;♦ Configurar o projeto WebApp.Api para executar na porta localhost:11145
-&nbsp;&nbsp;♦ Executar aplicação (F5) 
-&nbsp;&nbsp;&nbsp;&nbsp;Ao executar, o nuget deve restaurar os pacotes automáticamente.
-  
-&nbsp;&nbsp;♦ Abrir younder-test\WebApp.UI no CMD
-&nbsp;&nbsp;&nbsp;&nbsp;Caso a api não esteja rodando na porta localhost:11145
-&nbsp;&nbsp;&nbsp;&nbsp;Abrir o arquivo younder-test\WebApp.UI\src\services\api.js
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modificar 'http://localhost:11145' para o localhost que a api está executando
-&nbsp;&nbsp;executar os comandos:
-&nbsp;&nbsp;&nbsp;&nbsp;> npm install
-&nbsp;&nbsp;&nbsp;&nbsp;O comando vai instalar todas as dependências da aplicação web
-&nbsp;&nbsp;&nbsp;&nbsp;> npm start
-&nbsp;&nbsp;&nbsp;&nbsp;O comando vai iniciar a aplicação Web em http://localhost:3000
-&nbsp;&nbsp;Páginas existentes:
-&nbsp;&nbsp;http://localhost:3000/cliente/list
-&nbsp;&nbsp;http://localhost:3000/cliente/new
-&nbsp;&nbsp;http://localhost:3000/cliente/edit
+Ao clonar o repositório.
+&nbsp;&nbsp;♦ Abrir o arquivo younder-test/WebApp.sln no visual studio 2015 <br />
+&nbsp;&nbsp;♦ Configurar o Web.config da aplicação WebApp.Api <br />
+&nbsp;&nbsp;&nbsp;&nbsp;configuration>connectionStrings<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configurar a connectionString para o localhost que o mongodb estiver rodando<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;caso o seu mongodb esteja rodando na porta padrão, não será necessário modificar<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chave da porta padrão: connectionString="mongodb://localhost:27017/"<br />
+&nbsp;&nbsp;♦ Configurar o projeto WebApp.Api para executar na porta localhost:11145<br />
+&nbsp;&nbsp;♦ Executar aplicação (F5) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;Ao executar, o nuget deve restaurar os pacotes automáticamente.<br />
+<br />
+&nbsp;&nbsp;♦ Abrir younder-test\WebApp.UI no CMD<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Caso a api não esteja rodando na porta localhost:11145<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Abrir o arquivo younder-test\WebApp.UI\src\services\api.js<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modificar 'http://localhost:11145' para o localhost que a api está executando<br />
+&nbsp;&nbsp;executar os comandos:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;> npm install<br />
+&nbsp;&nbsp;&nbsp;&nbsp;O comando vai instalar todas as dependências da aplicação web<br />
+&nbsp;&nbsp;&nbsp;&nbsp;> npm start<br />
+&nbsp;&nbsp;&nbsp;&nbsp;O comando vai iniciar a aplicação Web em http://localhost:3000<br />
+&nbsp;&nbsp;Páginas existentes:<br />
+&nbsp;&nbsp;http://localhost:3000/cliente/list<br />
+&nbsp;&nbsp;http://localhost:3000/cliente/new<br />
+&nbsp;&nbsp;http://localhost:3000/cliente/edit<br />
 </pre>
       
       
