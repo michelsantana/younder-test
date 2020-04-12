@@ -26,48 +26,44 @@ React para UI<br />
 MongoDB como banco de dados<br />
 MongoDrive como ORM (Tive alguns problemas com a minha máquina e o sql, então, não pude seguir com o entity framework)<br />
 <br />
-#Configurando para testar<br />
-<br />
 <pre>
-  Instalar MongoDB 4.0.17
-    Fazer instalação padrão
+#Configurando para testar<br />
+
+Instalar MongoDB 4.0.17
+&nbsp;&nbsp;Fazer instalação padrão
 
 Após instalação do MongoDB
-  Executar os seguintes comandos
-    > md "C:/mongodb/"
-    > cd "C:/program files/mongodb/server/4.0/bin"
-    > mongod.exe --dbpath C:/mongodb/
-  Tradução dos comandos:
-    - criar uma pasta chamada mongodb no disco C:
-    - acessar a pasta onde está o configurador do mongodb
-    - configura o mongodb na pasta criada anteriormente (C:/mongodb/)
+&nbsp;&nbsp;Executar os seguintes comandos
+&nbsp;&nbsp;&nbsp;&nbsp;> md "C:/mongodb/"
+&nbsp;&nbsp;&nbsp;&nbsp;> cd "C:/program files/mongodb/server/4.0/bin"
+&nbsp;&nbsp;&nbsp;&nbsp;> mongod.exe --dbpath C:/mongodb/
+&nbsp;&nbsp;Tradução dos comandos:
+&nbsp;&nbsp;&nbsp;&nbsp;- criar uma pasta chamada mongodb no disco C:
+&nbsp;&nbsp;&nbsp;&nbsp;- acessar a pasta onde está o configurador do mongodb
+&nbsp;&nbsp;&nbsp;&nbsp;- configura o mongodb na pasta criada anteriormente (C:/mongodb/)
 
 Possívelmente o mongodb estará rodando na porta padrão localhost:27017
 
-Ao clonar o repositório.
-  ♦ Abrir o arquivo younder-test/WebApp.sln no visual studio 2015
-  ♦ Configurar o Web.config da aplicação WebApp.Api 
-    configuration>connectionStrings
-      configurar a connectionString para o localhost que o mongodb estiver rodando
-      caso o seu mongodb esteja rodando na porta padrão, não será necessário modificar
-      Chave da porta padrão: connectionString="mongodb://localhost:27017/"
-  ♦ Configurar o projeto WebApp.Api para executar na porta localhost:11145
-  ♦ Executar aplicação (F5) 
-    Ao executar, o nuget deve restaurar os pacotes automáticamente.
+Ao clonar o repositório.&nbsp;&nbsp;&nbsp;&nbsp;&n&nbsp;&nbsp;&nbsp;&nbsp;bsp;&nbsp;♦ Abrir o arquivo younder-test/WebApp.sln no visual studio 2015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;♦ Configurar o Web.config da aplicação WebApp.Api &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configuration>connectionStrings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configurar a connectionString para o localhost que o mongodb estiver rodando
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;caso o seu mongodb esteja rodando na porta padrão, não será necessário modificar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chave da porta padrão: connectionString="mongodb://localhost:27017/"
+&nbsp;&nbsp;♦ Configurar o projeto WebApp.Api para executar na porta localhost:11145
+&nbsp;&nbsp;♦ Executar aplicação (F5) 
+&nbsp;&nbsp;&nbsp;&nbsp;Ao executar, o nuget deve restaurar os pacotes automáticamente.
   
-  ♦ Abrir younder-test\WebApp.UI no CMD
-    Caso a api não esteja rodando na porta localhost:11145
-      Abrir o arquivo younder-test\WebApp.UI\src\services\api.js
-      Modificar 'http://localhost:11145' para o localhost que a api está executando
-    executar os comandos:
-      > npm install
-      O comando vai instalar todas as dependências da aplicação web
-      > npm start
-      O comando vai iniciar a aplicação Web em http://localhost:3000
-    Páginas existentes:
-      http://localhost:3000/cliente/list
-      http://localhost:3000/cliente/new
-      http://localhost:3000/cliente/edit
+&nbsp;&nbsp;♦ Abrir younder-test\WebApp.UI no CMD
+&nbsp;&nbsp;&nbsp;&nbsp;Caso a api não esteja rodando na porta localhost:11145
+&nbsp;&nbsp;&nbsp;&nbsp;Abrir o arquivo younder-test\WebApp.UI\src\services\api.js
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modificar 'http://localhost:11145' para o localhost que a api está executando
+&nbsp;&nbsp;executar os comandos:
+&nbsp;&nbsp;&nbsp;&nbsp;> npm install
+&nbsp;&nbsp;&nbsp;&nbsp;O comando vai instalar todas as dependências da aplicação web
+&nbsp;&nbsp;&nbsp;&nbsp;> npm start
+&nbsp;&nbsp;&nbsp;&nbsp;O comando vai iniciar a aplicação Web em http://localhost:3000
+&nbsp;&nbsp;Páginas existentes:
+&nbsp;&nbsp;http://localhost:3000/cliente/list
+&nbsp;&nbsp;http://localhost:3000/cliente/new
+&nbsp;&nbsp;http://localhost:3000/cliente/edit
 </pre>
       
       
