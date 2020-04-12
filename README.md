@@ -25,11 +25,12 @@ Utilizei Visual Studio 2015 para desenvolver a api em .Net C#<br />
 React para UI<br />
 MongoDB como banco de dados<br />
 MongoDrive como ORM (Tive alguns problemas com a minha máquina e o sql, então, não pude seguir com o entity framework)<br />
-
-#Configurando para testar
-
-Instalar MongoDB 4.0.17 
-  Fazer instalação padrão
+<br />
+#Configurando para testar<br />
+<br />
+<pre>
+  Instalar MongoDB 4.0.17
+    Fazer instalação padrão
 
 Após instalação do MongoDB
   Executar os seguintes comandos
@@ -49,7 +50,7 @@ Ao clonar o repositório.
     configuration>connectionStrings
       configurar a connectionString para o localhost que o mongodb estiver rodando
       caso o seu mongodb esteja rodando na porta padrão, não será necessário modificar
-      Chave da porta padrão: <add name="database" connectionString="mongodb://localhost:27017/" />
+      Chave da porta padrão: connectionString="mongodb://localhost:27017/"
   ♦ Configurar o projeto WebApp.Api para executar na porta localhost:11145
   ♦ Executar aplicação (F5) 
     Ao executar, o nuget deve restaurar os pacotes automáticamente.
@@ -67,8 +68,7 @@ Ao clonar o repositório.
       http://localhost:3000/cliente/list
       http://localhost:3000/cliente/new
       http://localhost:3000/cliente/edit
-      
-      
+</pre>
       
       
       
