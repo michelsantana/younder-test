@@ -1,28 +1,30 @@
 # younder-test
 
-Aplicação proposta para o teste da Younder
+Aplicação proposta para o teste da Younder<br />
+<br />
+Younder: Analista de Desenvolvimento. <br />
+Este é um teste técnico para o cargo de Analista de Desenvolvimento. O objetivo é avaliar a sua capacidade de solucionar problemas, portanto é importante que você faça esse teste sozinho. Não tenha medo de errar, não existem soluções iguais e perfeitas.<br />
+<br />
+Instruções <br />
+O foco do teste é a criação de um CRUD simples e Arquitetura, o teste deve ser desenvolvido utilizando boas práticas e empregando o seu conhecimento. (nos envie a solução compactada, orientando como executá-la).<br />
+<br />
+<br />
+Teste:<br /> 
+Desenvolver uma tela onde seja possível consultar, cadastrar, alterar e excluir dados de uma tabela simples de Clientes.<br />
+<br />
+Ferramentas desejadas para o desenvolvimento: <br />
 
-Younder: Analista de Desenvolvimento. 
-Este é um teste técnico para o cargo de Analista de Desenvolvimento. O objetivo é avaliar a sua capacidade de solucionar problemas, portanto é importante que você faça esse teste sozinho. Não tenha medo de errar, não existem soluções iguais e perfeitas.
-
-Instruções 
-O foco do teste é a criação de um CRUD simples e Arquitetura, o teste deve ser desenvolvido utilizando boas práticas e empregando o seu conhecimento. (nos envie a solução compactada, orientando como executá-la).
-
-
-Teste: 
-Desenvolver uma tela onde seja possível consultar, cadastrar, alterar e excluir dados de uma tabela simples de Clientes.
-
-Ferramentas desejadas para o desenvolvimento: 
-
-♦	“Angular JS / Angular 2+ ou React”.
-♦	Desenvolver WebAPI para consumo das informações utilizando “.Net C#”.
-♦	Acesso aos dados utilizando ORM de sua escolha.
-
-#Observações
-Utilizei Visual Studio 2015 para desenvolver a api em .Net C#
-React para UI
-MongoDB como banco de dados
-MongoDrive como ORM (Tive alguns problemas com a minha máquina e o sql, então, não pude seguir com o entity framework)
+<ul>
+<li>“Angular JS / Angular 2+ ou React”.</li>
+<li>Desenvolver WebAPI para consumo das informações utilizando “.Net C#”.</li>
+<li>Acesso aos dados utilizando ORM de sua escolha.</li>
+</ul>
+<br />
+#Observações<br />
+Utilizei Visual Studio 2015 para desenvolver a api em .Net C#<br />
+React para UI<br />
+MongoDB como banco de dados<br />
+MongoDrive como ORM (Tive alguns problemas com a minha máquina e o sql, então, não pude seguir com o entity framework)<br />
 
 #Configurando para testar
 
